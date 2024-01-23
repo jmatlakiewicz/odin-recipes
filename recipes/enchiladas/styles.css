@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(23, 99, 73);
+}
+
+#name {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 48px;
+  color: hsl(240, 66%, 23%);
+}
+
+#main-pic {
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: auto;
+}
+
+.heading {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+}
+
+.content {
+  color: whitesmoke;
+  font-size: 18px;
+}
