@@ -1,0 +1,17 @@
+body {
+  background-color: aquamarine;
+}
+
+div {
+  padding: 180px;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  margin: auto;
+  width: 220px;
+  line-height: 2em;
+}
