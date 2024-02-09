@@ -11,39 +11,42 @@ html {
   box-sizing: inherit;
 }
 
-.title {
+.title-container {
   background-color: rgb(43, 195, 144);
-  color: rgb(73, 14, 129);
   display: flex;
-  align-items: center;
   justify-content: center;
-  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
   height: 50vh;
-  width: auto;
+}
+
+.title {
+  color: rgb(73, 14, 129);
   font-size: 20vh;
 }
 
-.recipes {
+.recipes-table {
   display: flex;
-  height: auto;
 }
 
-.recipes > * {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.recipe-container {
   background-color: rgb(61, 77, 195);
-  width: 33.3333vw;
-  min-width: min-content;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 42vh;
-  text-align: center;
-  line-height: 1.5em;
   margin: 4vh;
   margin-right: 0;
   padding: 4vh;
-  font-size: 7vh;
 }
 
-.recipes :last-child {
+.recipe-container:last-child {
   margin-right: 4vh;
+}
+
+.recipe {
+  line-height: 1.5em;
+  font-size: 7vh;
+  text-align: center;
 }
